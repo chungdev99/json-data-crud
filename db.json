@@ -1,9 +1,21 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "categories": [
+    {
+      "id": 1,
+      "name": "chung",
+      "teams": "Team 1",
+      "email": "chungtran@gmail.com",
+      "gender": "M"
+    },
+    {
+      "id": 2,
+      "name": "Jonnn",
+      "teams": "Team 3",
+      "email": "tranc@gmail.comm",
+      "gender": "L"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "name": "typicode"
+  }
 }
